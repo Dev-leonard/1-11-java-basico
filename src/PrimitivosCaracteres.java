@@ -1,4 +1,4 @@
-public class Caracteres {
+public class PrimitivosCaracteres {
     public static void main(String[] args) {
         char caracter = '\u0040';
         var decimal = 64;
@@ -11,8 +11,14 @@ public class Caracteres {
         System.out.println("simbolo =  " + simbolo);
         System.out.println("simbolo = caracter:  " + (simbolo == caracter));
 
-        System.out.println("char corresponde en byte = " + Character.BYTES);
-        System.out.println("char corresponde en byte = " + Character.BYTES);
+        char espacio = '\u0020';
+        char retroceso = '\b';
+        char tabulador = '\t';
+        char nuevaLinea = '\n';
+        char retornoCarro = '\r';
+
+        System.out.println("char corresponde en byte: " + System.lineSeparator() + Character.BYTES);
+        System.out.println("char corresponde en byte = " + Character.SIZE);
         System.out.println("character.MIN_VALUE = " + Character.MIN_VALUE);
         System.out.println("character.MAX_VALUE = " + Character.MAX_VALUE);
     }
