@@ -2,14 +2,14 @@ public class EjemploStringMetodosArreglo {
     public static void main(String[] args) {
 
 
-        String trabalenguas = " tranalenguas";
+        String trabalenguas = " trabalenguas";
         System.out.println("trabalenguas.length() = " + trabalenguas.length());
         System.out.println("trabalenguas.toCharArray = " + trabalenguas.toCharArray());
 
         char[] arreglo = trabalenguas.toCharArray();
         int largo = arreglo.length;
         System.out.println("largo = " + largo);
-        for(int i = 0; i < largo; i++){
+        for(int i = 0; i < largo; i++){   // (i+1 = i++)
             System.out.print(arreglo[i]);
         }
         System.out.println();
